@@ -22,5 +22,5 @@ function selectScene(key){
 document.querySelectorAll('[data-scene]').forEach(button=>button.addEventListener('click',()=>selectScene(button.dataset.scene)));
 selectScene('clear');
 // Set only after the public repository and Discussions have been approved and verified.
-const collaborationUrl = '';
+const collaborationUrl = 'https://github.com/winglynn/dreampulse/discussions';
 if(collaborationUrl){const link=document.querySelector('#contact-link');link.href=collaborationUrl;link.hidden=false;document.querySelector('#contact-pending').hidden=true;}
