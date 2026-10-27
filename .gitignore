@@ -1,0 +1,24 @@
+# Defense in depth. An ignore file never removes previously committed material.
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*.mp4
+*.mov
+*.zip
+*.xml
+*.csv
+*.sqlite*
+*.db
+private/
+health-data/
+raw-data/
+workflows/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Explicitly authorized film only; all other MP4s remain excluded.
+!docs/media/dreampulse-2.1.mp4
