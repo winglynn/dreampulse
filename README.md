@@ -21,7 +21,7 @@ Use GitHub Free, the public repository, and Settings → Pages → Deploy from a
 
 ## Collaboration
 
-Proposed channel: GitHub Discussions. It is not enabled or linked yet. Once approved, enable Discussions in repository settings, verify the discussion URL, then set `collaborationUrl` in `docs/app.js`. Never paste a private email address without explicit approval.
+Public collaboration channel: https://github.com/winglynn/dreampulse/discussions. Reading is public; posting requires a GitHub account. Do not share private health records in public discussions.
 
 ## Public/private boundary
 
